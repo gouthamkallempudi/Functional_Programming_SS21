@@ -1,0 +1,31 @@
+1. :load name
+
+// load a script with name in ghci
+
+2. :quit
+
+// quit ghci
+
+3. :reload
+
+// reloads the current script
+
+4. :set editor name
+
+// sets editor name from terminal
+
+5. :edit name.hs
+
+// opens the default editor for editing
+
+6. :edit
+
+// edits current script
+
+7. :type expr
+
+// gives the type of expression
+
+8.: :?
+
+// show all commands

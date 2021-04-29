@@ -1,4 +1,4 @@
-1. :load name
+.1. :load name
 
 // load a script with name in ghci
 
@@ -29,3 +29,14 @@
 8.: :?
 
 // show all commands
+
+9. :t expression
+
+   :type function
+
+// gives the type of expression
+
+
+10. reading a file 
+import System.IO.Unsafe
+s <-readFile "filename.txt"

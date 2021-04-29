@@ -1,0 +1,25 @@
+• Integer
+f = 1
+
+• Integer → Integer
+f a = a+1
+
+• Integer → Integer → Integer
+f a b = a+b
+
+• (Integer ,Integer ) → Integer
+f (a,b) = a+b
+
+• Integer → (Integer ,Integer )
+f a = (a+1 , a+2)
+
+• (Integer → Integer ) → Integer
+
+
+•  [Integer ] → Integer
+f [a] = sum a
+
+• a → a
+f a = a
+
+• (b → c) → (a → b) → a → c

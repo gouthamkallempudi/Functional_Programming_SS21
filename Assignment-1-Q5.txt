@@ -14,7 +14,8 @@ f (a,b) = a+b
 f a = (a+1 , a+2)
 
 • (Integer → Integer ) → Integer
-
+f x  = x +1
+g f = f(1)
 
 •  [Integer ] → Integer
 f [a] = sum a
